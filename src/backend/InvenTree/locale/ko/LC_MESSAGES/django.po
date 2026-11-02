@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 01:10+0000\n"
-"PO-Revision-Date: 2026-11-02 01:15\n"
+"POT-Creation-Date: 2026-11-02 09:43+0000\n"
+"PO-Revision-Date: 2026-11-02 09:48\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -601,7 +601,7 @@ msgstr "유효한 통화 코드가 아닙니다"
 
 #: audit/api.py:91 audit/serializers.py:107 common/serializers.py:841
 #: common/serializers.py:997 common/serializers.py:1043
-#: common/serializers.py:1111 importer/models.py:95 report/api.py:42
+#: common/serializers.py:1111 importer/models.py:104 report/api.py:42
 #: report/models.py:390 report/serializers.py:69
 msgid "Model Type"
 msgstr "모델 유형"
@@ -670,7 +670,7 @@ msgstr ""
 msgid "Notes associated with this entry"
 msgstr ""
 
-#: audit/serializers.py:26 importer/models.py:588
+#: audit/serializers.py:26 importer/models.py:597
 msgid "Field"
 msgstr "필드"
 
@@ -1697,7 +1697,7 @@ msgstr "보류"
 msgid "Cancelled"
 msgstr "취소됨"
 
-#: build/status_codes.py:23 generic/states/tests.py:23 importer/models.py:694
+#: build/status_codes.py:23 generic/states/tests.py:23 importer/models.py:703
 #: importer/status_codes.py:23 order/status_codes.py:24
 #: order/status_codes.py:68 order/status_codes.py:103 order/status_codes.py:153
 msgid "Complete"
@@ -1922,7 +1922,7 @@ msgstr "키 문자열은 고유해야 합니다"
 #: common/models.py:1435 common/models.py:1436 common/models.py:1550
 #: common/models.py:1551 common/models.py:1798 common/models.py:1799
 #: common/models.py:2257 common/models.py:2258 common/models.py:3599
-#: importer/models.py:106 part/models.py:2707 part/models.py:2735
+#: importer/models.py:115 part/models.py:2707 part/models.py:2735
 #: plugin/models.py:392 plugin/models.py:393
 #: report/templates/report/inventree_test_report.html:105 users/models.py:252
 #: users/models.py:707 users/models.py:841
@@ -2500,7 +2500,7 @@ msgstr "템플릿"
 msgid "Parameter template"
 msgstr "매개변수 템플릿"
 
-#: common/models.py:3197 common/models.py:3588 importer/models.py:685
+#: common/models.py:3197 common/models.py:3588 importer/models.py:694
 msgid "Data"
 msgstr "데이터"
 
@@ -2582,7 +2582,7 @@ msgstr "바코드 데이터"
 msgid "User who scanned the barcode"
 msgstr "바코드를 스캔한 사용자"
 
-#: common/models.py:3605 importer/models.py:73
+#: common/models.py:3605 importer/models.py:82
 msgid "Timestamp"
 msgstr "타임스탬프"
 
@@ -5143,144 +5143,149 @@ msgstr ""
 msgid "Invalid status code"
 msgstr "잘못된 상태 코드"
 
-#: importer/models.py:77
+#: importer/models.py:86
 msgid "Data File"
 msgstr "데이터 파일"
 
-#: importer/models.py:78
+#: importer/models.py:87
 msgid "Data file to import"
 msgstr "가져올 데이터 파일"
 
-#: importer/models.py:88
+#: importer/models.py:97
 msgid "Columns"
 msgstr "열"
 
-#: importer/models.py:96
+#: importer/models.py:105
 msgid "Target model type for this import session"
 msgstr "이 가져오기 세션의 대상 모델 유형"
 
-#: importer/models.py:102
+#: importer/models.py:111
 msgid "Import status"
 msgstr "가져오기 상태"
 
-#: importer/models.py:112
+#: importer/models.py:121
 msgid "Field Defaults"
 msgstr "필드 기본값"
 
-#: importer/models.py:120
+#: importer/models.py:129
 msgid "Field Overrides"
 msgstr "필드 재정의"
 
-#: importer/models.py:128
+#: importer/models.py:137
 msgid "Field Filters"
 msgstr "필드 필터"
 
-#: importer/models.py:135
+#: importer/models.py:144
 msgid "Update Existing Records"
 msgstr "기존 레코드 업데이트"
 
-#: importer/models.py:136
+#: importer/models.py:145
 msgid "If enabled, existing records will be updated with new data"
 msgstr "활성화하면 기존 레코드가 새 데이터로 업데이트됩니다"
 
-#: importer/models.py:326
+#: importer/models.py:335
 msgid "Some required fields have not been mapped"
 msgstr "일부 필수 필드가 매핑되지 않았습니다"
 
-#: importer/models.py:428
+#: importer/models.py:437
 msgid "Completed Row Count History"
 msgstr "완료된 행 수 기록"
 
-#: importer/models.py:431
+#: importer/models.py:440
 msgid "Row Count History"
 msgstr "행 수 기록"
 
-#: importer/models.py:454
+#: importer/models.py:463
 msgid "ID"
 msgstr "ID"
 
-#: importer/models.py:455
+#: importer/models.py:464
 msgid "Existing database identifier for the record"
 msgstr "레코드의 기존 데이터베이스 식별자"
 
-#: importer/models.py:533
+#: importer/models.py:542
 msgid "Column is already mapped to a database field"
 msgstr "열이 이미 데이터베이스 필드에 매핑되어 있습니다"
 
-#: importer/models.py:538
+#: importer/models.py:547
 msgid "Field is already mapped to a data column"
 msgstr "필드가 이미 데이터 열에 매핑되어 있습니다"
 
-#: importer/models.py:547
+#: importer/models.py:556
 msgid "Column mapping must be linked to a valid import session"
 msgstr "열 매핑은 유효한 가져오기 세션에 연결되어야 합니다"
 
-#: importer/models.py:552
+#: importer/models.py:561
 msgid "Column does not exist in the data file"
 msgstr "데이터 파일에 해당 열이 없습니다"
 
-#: importer/models.py:559
+#: importer/models.py:568
 msgid "Field does not exist in the target model"
 msgstr "대상 모델에 해당 필드가 없습니다"
 
-#: importer/models.py:563
+#: importer/models.py:572
 msgid "Selected field is read-only"
 msgstr "선택한 필드는 읽기 전용입니다"
 
-#: importer/models.py:569
+#: importer/models.py:578
 msgid "Lookup field can only be set for related (foreign-key) fields"
 msgstr "조회 필드는 관련(외래 키) 필드에만 설정할 수 있음"
 
-#: importer/models.py:577
+#: importer/models.py:586
 #, python-brace-format
 msgid "Invalid lookup field. Valid options are: {options}"
 msgstr "잘못된 조회 필드입니다. 사용 가능한 옵션: {options}"
 
-#: importer/models.py:584 importer/models.py:671
+#: importer/models.py:593 importer/models.py:680
 msgid "Import Session"
 msgstr "가져오기 세션"
 
-#: importer/models.py:590
+#: importer/models.py:599
 msgid "Column"
 msgstr "열"
 
-#: importer/models.py:596
+#: importer/models.py:605
 msgid "Lookup Field"
 msgstr "조회 필드"
 
-#: importer/models.py:598
+#: importer/models.py:607
 msgid "Database field to use for foreign-key lookup. Leave blank for automatic lookup."
 msgstr "외래 키 조회에 사용할 데이터베이스 필드. 자동 조회를 사용하려면 비워두세요."
 
-#: importer/models.py:675
+#: importer/models.py:684
 msgid "Row Index"
 msgstr "행 인덱스"
 
-#: importer/models.py:680
+#: importer/models.py:689
 msgid "Original row data"
 msgstr "원본 행 데이터"
 
-#: importer/models.py:689 machine/models.py:114
+#: importer/models.py:698 machine/models.py:114
 msgid "Errors"
 msgstr "오류"
 
-#: importer/models.py:692 part/serializers.py:1110
+#: importer/models.py:701 part/serializers.py:1110
 msgid "Valid"
 msgstr "유효"
 
-#: importer/models.py:933
+#: importer/models.py:915 importer/models.py:942
+#, python-brace-format
+msgid "Invalid filters for field: {field}"
+msgstr ""
+
+#: importer/models.py:956
 msgid "Multiple matches found for value - please ensure the value is unique, or select a specific lookup field"
 msgstr "값에 대해 여러 항목이 일치합니다. 값이 고유한지 확인하거나 특정 조회 필드를 선택하세요"
 
-#: importer/models.py:986
+#: importer/models.py:1009
 msgid "No record found with the provided ID"
 msgstr "제공된 ID로 레코드를 찾을 수 없습니다"
 
-#: importer/models.py:991
+#: importer/models.py:1014
 msgid "Invalid ID format provided"
 msgstr "잘못된 ID 형식이 제공되었습니다"
 
-#: importer/models.py:1059
+#: importer/models.py:1082
 msgid "ID is required for updating existing records."
 msgstr "기존 레코드를 업데이트하려면 ID가 필요합니다."
 
@@ -5300,43 +5305,43 @@ msgstr ""
 msgid "Invalid data file dimensions"
 msgstr "잘못된 데이터 파일 크기입니다"
 
-#: importer/serializers.py:98
+#: importer/serializers.py:99
 msgid "Model type cannot be changed after the import session has been created"
 msgstr ""
 
-#: importer/serializers.py:113 importer/serializers.py:116
+#: importer/serializers.py:114 importer/serializers.py:117
 msgid "Invalid field defaults"
 msgstr "잘못된 필드 기본값"
 
-#: importer/serializers.py:129 importer/serializers.py:132
+#: importer/serializers.py:130 importer/serializers.py:133
 msgid "Invalid field overrides"
 msgstr "잘못된 필드 재정의"
 
-#: importer/serializers.py:145 importer/serializers.py:148
+#: importer/serializers.py:146 importer/serializers.py:149
 msgid "Invalid field filters"
 msgstr "잘못된 필드 필터"
 
-#: importer/serializers.py:229
+#: importer/serializers.py:232
 msgid "Rows"
 msgstr "행"
 
-#: importer/serializers.py:230
+#: importer/serializers.py:233
 msgid "List of row IDs to accept"
 msgstr "승인할 행 ID 목록"
 
-#: importer/serializers.py:243
+#: importer/serializers.py:246
 msgid "No rows provided"
 msgstr "제공된 행이 없습니다"
 
-#: importer/serializers.py:247
+#: importer/serializers.py:250
 msgid "Row does not belong to this session"
 msgstr "행이 이 세션에 속하지 않습니다"
 
-#: importer/serializers.py:250
+#: importer/serializers.py:253
 msgid "Row contains invalid data"
 msgstr "행에 잘못된 데이터가 포함되어 있습니다"
 
-#: importer/serializers.py:253
+#: importer/serializers.py:256
 msgid "Row has already been completed"
 msgstr "행이 이미 완료되었습니다"
 
@@ -5373,8 +5378,24 @@ msgid "Data file contains too many rows"
 msgstr "데이터 파일에 행이 너무 많습니다"
 
 #: importer/validators.py:53 importer/validators.py:56
+#: importer/validators.py:74
 msgid "Value must be a valid dictionary object"
 msgstr "값은 유효한 사전(dictionary) 객체여야 합니다"
+
+#: importer/validators.py:79
+#, python-brace-format
+msgid "Filters for field {field} must be a valid dictionary object"
+msgstr ""
+
+#: importer/validators.py:92
+#, python-brace-format
+msgid "Invalid filter key for field {field}: {key}"
+msgstr ""
+
+#: importer/validators.py:104
+#, python-brace-format
+msgid "Invalid filter value for field {field}: {key}"
+msgstr ""
 
 #: machine/machine_types/label_printer.py:216
 msgid "Copies"

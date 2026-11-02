@@ -8,7 +8,7 @@ msgstr ""
 "Language: ca\n"
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-01 03:16\n"
+"PO-Revision-Date: 2026-11-02 03:53\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -679,7 +679,7 @@ msgstr "Entrades de selecció"
 #: src/components/importer/ImporterDrawer.tsx:91
 #: src/components/modals/LicenseModal.tsx:85
 #: src/components/nav/NavigationTree.tsx:434
-#: src/components/nav/NotificationDrawer.tsx:239
+#: src/components/nav/NotificationDrawer.tsx:257
 #: src/components/nav/SearchDrawer.tsx:612
 #: src/components/settings/SettingList.tsx:158
 #: src/components/tables/InvenTreeTableHeader.tsx:164
@@ -1447,7 +1447,7 @@ msgid "Change the language of the user interface"
 msgstr "Canvia la llengua de la interfície d'usuari"
 
 #: src/components/dashboard/widgets/NewsWidget.tsx:60
-#: src/components/nav/NotificationDrawer.tsx:98
+#: src/components/nav/NotificationDrawer.tsx:116
 #: src/pages/Notifications.tsx:53
 msgid "Mark as read"
 msgstr "Marca com a llegit"
@@ -3193,7 +3193,7 @@ msgstr ""
 #: src/components/nav/FirstUseTour.tsx:85
 #: src/components/nav/Header.tsx:209
 #: src/components/nav/NavigationDrawer.tsx:134
-#: src/components/nav/NotificationDrawer.tsx:185
+#: src/components/nav/NotificationDrawer.tsx:203
 #: src/pages/Index/Settings/SystemSettings.tsx:147
 #: src/pages/Index/Settings/UserSettings.tsx:113
 #: src/pages/Notifications.tsx:45
@@ -3425,20 +3425,20 @@ msgstr "Neteja la cerca"
 msgid "Error loading navigation tree."
 msgstr "S'ha produït un error en carregar l'arbre de navegació."
 
-#: src/components/nav/NotificationDrawer.tsx:187
+#: src/components/nav/NotificationDrawer.tsx:205
 #: src/pages/Notifications.tsx:74
 msgid "Mark all as read"
 msgstr "Marca-ho tot com a llegit"
 
-#: src/components/nav/NotificationDrawer.tsx:197
+#: src/components/nav/NotificationDrawer.tsx:215
 msgid "View all notifications"
 msgstr "Mostra totes les notificacions"
 
-#: src/components/nav/NotificationDrawer.tsx:220
+#: src/components/nav/NotificationDrawer.tsx:238
 msgid "You have no unread notifications."
 msgstr "No teniu cap notificació sense llegir."
 
-#: src/components/nav/NotificationDrawer.tsx:242
+#: src/components/nav/NotificationDrawer.tsx:260
 msgid "Error loading notifications."
 msgstr "S'ha produït un error en carregar les notificacions."
 

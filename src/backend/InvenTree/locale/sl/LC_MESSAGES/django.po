@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 01:10+0000\n"
-"PO-Revision-Date: 2026-11-02 01:15\n"
+"POT-Creation-Date: 2026-11-02 09:43+0000\n"
+"PO-Revision-Date: 2026-11-02 09:48\n"
 "Last-Translator: \n"
 "Language-Team: Slovenian\n"
 "Language: sl_SI\n"
@@ -601,7 +601,7 @@ msgstr "Neveljavna oznaka valute"
 
 #: audit/api.py:91 audit/serializers.py:107 common/serializers.py:841
 #: common/serializers.py:997 common/serializers.py:1043
-#: common/serializers.py:1111 importer/models.py:95 report/api.py:42
+#: common/serializers.py:1111 importer/models.py:104 report/api.py:42
 #: report/models.py:390 report/serializers.py:69
 msgid "Model Type"
 msgstr ""
@@ -670,7 +670,7 @@ msgstr ""
 msgid "Notes associated with this entry"
 msgstr ""
 
-#: audit/serializers.py:26 importer/models.py:588
+#: audit/serializers.py:26 importer/models.py:597
 msgid "Field"
 msgstr ""
 
@@ -1697,7 +1697,7 @@ msgstr ""
 msgid "Cancelled"
 msgstr "Preklicano"
 
-#: build/status_codes.py:23 generic/states/tests.py:23 importer/models.py:694
+#: build/status_codes.py:23 generic/states/tests.py:23 importer/models.py:703
 #: importer/status_codes.py:23 order/status_codes.py:24
 #: order/status_codes.py:68 order/status_codes.py:103 order/status_codes.py:153
 msgid "Complete"
@@ -1922,7 +1922,7 @@ msgstr ""
 #: common/models.py:1435 common/models.py:1436 common/models.py:1550
 #: common/models.py:1551 common/models.py:1798 common/models.py:1799
 #: common/models.py:2257 common/models.py:2258 common/models.py:3599
-#: importer/models.py:106 part/models.py:2707 part/models.py:2735
+#: importer/models.py:115 part/models.py:2707 part/models.py:2735
 #: plugin/models.py:392 plugin/models.py:393
 #: report/templates/report/inventree_test_report.html:105 users/models.py:252
 #: users/models.py:707 users/models.py:841
@@ -2500,7 +2500,7 @@ msgstr ""
 msgid "Parameter template"
 msgstr ""
 
-#: common/models.py:3197 common/models.py:3588 importer/models.py:685
+#: common/models.py:3197 common/models.py:3588 importer/models.py:694
 msgid "Data"
 msgstr ""
 
@@ -2582,7 +2582,7 @@ msgstr ""
 msgid "User who scanned the barcode"
 msgstr ""
 
-#: common/models.py:3605 importer/models.py:73
+#: common/models.py:3605 importer/models.py:82
 msgid "Timestamp"
 msgstr ""
 
@@ -5143,144 +5143,149 @@ msgstr ""
 msgid "Invalid status code"
 msgstr ""
 
-#: importer/models.py:77
+#: importer/models.py:86
 msgid "Data File"
 msgstr "Podatki datoteke"
 
-#: importer/models.py:78
+#: importer/models.py:87
 msgid "Data file to import"
 msgstr ""
 
-#: importer/models.py:88
+#: importer/models.py:97
 msgid "Columns"
 msgstr ""
 
-#: importer/models.py:96
+#: importer/models.py:105
 msgid "Target model type for this import session"
 msgstr ""
 
-#: importer/models.py:102
+#: importer/models.py:111
 msgid "Import status"
 msgstr ""
 
-#: importer/models.py:112
+#: importer/models.py:121
 msgid "Field Defaults"
 msgstr ""
 
-#: importer/models.py:120
+#: importer/models.py:129
 msgid "Field Overrides"
 msgstr ""
 
-#: importer/models.py:128
+#: importer/models.py:137
 msgid "Field Filters"
 msgstr ""
 
-#: importer/models.py:135
+#: importer/models.py:144
 msgid "Update Existing Records"
 msgstr ""
 
-#: importer/models.py:136
+#: importer/models.py:145
 msgid "If enabled, existing records will be updated with new data"
 msgstr ""
 
-#: importer/models.py:326
+#: importer/models.py:335
 msgid "Some required fields have not been mapped"
 msgstr ""
 
-#: importer/models.py:428
+#: importer/models.py:437
 msgid "Completed Row Count History"
 msgstr ""
 
-#: importer/models.py:431
+#: importer/models.py:440
 msgid "Row Count History"
 msgstr ""
 
-#: importer/models.py:454
+#: importer/models.py:463
 msgid "ID"
 msgstr ""
 
-#: importer/models.py:455
+#: importer/models.py:464
 msgid "Existing database identifier for the record"
 msgstr ""
 
-#: importer/models.py:533
+#: importer/models.py:542
 msgid "Column is already mapped to a database field"
 msgstr ""
 
-#: importer/models.py:538
+#: importer/models.py:547
 msgid "Field is already mapped to a data column"
 msgstr ""
 
-#: importer/models.py:547
+#: importer/models.py:556
 msgid "Column mapping must be linked to a valid import session"
 msgstr ""
 
-#: importer/models.py:552
+#: importer/models.py:561
 msgid "Column does not exist in the data file"
 msgstr ""
 
-#: importer/models.py:559
+#: importer/models.py:568
 msgid "Field does not exist in the target model"
 msgstr ""
 
-#: importer/models.py:563
+#: importer/models.py:572
 msgid "Selected field is read-only"
 msgstr ""
 
-#: importer/models.py:569
+#: importer/models.py:578
 msgid "Lookup field can only be set for related (foreign-key) fields"
 msgstr ""
 
-#: importer/models.py:577
+#: importer/models.py:586
 #, python-brace-format
 msgid "Invalid lookup field. Valid options are: {options}"
 msgstr ""
 
-#: importer/models.py:584 importer/models.py:671
+#: importer/models.py:593 importer/models.py:680
 msgid "Import Session"
 msgstr ""
 
-#: importer/models.py:590
+#: importer/models.py:599
 msgid "Column"
 msgstr ""
 
-#: importer/models.py:596
+#: importer/models.py:605
 msgid "Lookup Field"
 msgstr ""
 
-#: importer/models.py:598
+#: importer/models.py:607
 msgid "Database field to use for foreign-key lookup. Leave blank for automatic lookup."
 msgstr ""
 
-#: importer/models.py:675
+#: importer/models.py:684
 msgid "Row Index"
 msgstr ""
 
-#: importer/models.py:680
+#: importer/models.py:689
 msgid "Original row data"
 msgstr ""
 
-#: importer/models.py:689 machine/models.py:114
+#: importer/models.py:698 machine/models.py:114
 msgid "Errors"
 msgstr ""
 
-#: importer/models.py:692 part/serializers.py:1110
+#: importer/models.py:701 part/serializers.py:1110
 msgid "Valid"
 msgstr ""
 
-#: importer/models.py:933
+#: importer/models.py:915 importer/models.py:942
+#, python-brace-format
+msgid "Invalid filters for field: {field}"
+msgstr ""
+
+#: importer/models.py:956
 msgid "Multiple matches found for value - please ensure the value is unique, or select a specific lookup field"
 msgstr ""
 
-#: importer/models.py:986
+#: importer/models.py:1009
 msgid "No record found with the provided ID"
 msgstr ""
 
-#: importer/models.py:991
+#: importer/models.py:1014
 msgid "Invalid ID format provided"
 msgstr ""
 
-#: importer/models.py:1059
+#: importer/models.py:1082
 msgid "ID is required for updating existing records."
 msgstr ""
 
@@ -5300,43 +5305,43 @@ msgstr ""
 msgid "Invalid data file dimensions"
 msgstr ""
 
-#: importer/serializers.py:98
+#: importer/serializers.py:99
 msgid "Model type cannot be changed after the import session has been created"
 msgstr ""
 
-#: importer/serializers.py:113 importer/serializers.py:116
+#: importer/serializers.py:114 importer/serializers.py:117
 msgid "Invalid field defaults"
 msgstr ""
 
-#: importer/serializers.py:129 importer/serializers.py:132
+#: importer/serializers.py:130 importer/serializers.py:133
 msgid "Invalid field overrides"
 msgstr ""
 
-#: importer/serializers.py:145 importer/serializers.py:148
+#: importer/serializers.py:146 importer/serializers.py:149
 msgid "Invalid field filters"
 msgstr ""
 
-#: importer/serializers.py:229
+#: importer/serializers.py:232
 msgid "Rows"
 msgstr ""
 
-#: importer/serializers.py:230
+#: importer/serializers.py:233
 msgid "List of row IDs to accept"
 msgstr ""
 
-#: importer/serializers.py:243
+#: importer/serializers.py:246
 msgid "No rows provided"
 msgstr ""
 
-#: importer/serializers.py:247
+#: importer/serializers.py:250
 msgid "Row does not belong to this session"
 msgstr ""
 
-#: importer/serializers.py:250
+#: importer/serializers.py:253
 msgid "Row contains invalid data"
 msgstr ""
 
-#: importer/serializers.py:253
+#: importer/serializers.py:256
 msgid "Row has already been completed"
 msgstr ""
 
@@ -5373,7 +5378,23 @@ msgid "Data file contains too many rows"
 msgstr ""
 
 #: importer/validators.py:53 importer/validators.py:56
+#: importer/validators.py:74
 msgid "Value must be a valid dictionary object"
+msgstr ""
+
+#: importer/validators.py:79
+#, python-brace-format
+msgid "Filters for field {field} must be a valid dictionary object"
+msgstr ""
+
+#: importer/validators.py:92
+#, python-brace-format
+msgid "Invalid filter key for field {field}: {key}"
+msgstr ""
+
+#: importer/validators.py:104
+#, python-brace-format
+msgid "Invalid filter value for field {field}: {key}"
 msgstr ""
 
 #: machine/machine_types/label_printer.py:216

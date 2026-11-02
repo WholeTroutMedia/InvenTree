@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 01:10+0000\n"
-"PO-Revision-Date: 2026-11-02 01:15\n"
+"POT-Creation-Date: 2026-11-02 09:43+0000\n"
+"PO-Revision-Date: 2026-11-02 09:47\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -601,7 +601,7 @@ msgstr "无效的货币代码"
 
 #: audit/api.py:91 audit/serializers.py:107 common/serializers.py:841
 #: common/serializers.py:997 common/serializers.py:1043
-#: common/serializers.py:1111 importer/models.py:95 report/api.py:42
+#: common/serializers.py:1111 importer/models.py:104 report/api.py:42
 #: report/models.py:390 report/serializers.py:69
 msgid "Model Type"
 msgstr "模型类型"
@@ -670,7 +670,7 @@ msgstr ""
 msgid "Notes associated with this entry"
 msgstr ""
 
-#: audit/serializers.py:26 importer/models.py:588
+#: audit/serializers.py:26 importer/models.py:597
 msgid "Field"
 msgstr "字段"
 
@@ -1697,7 +1697,7 @@ msgstr "已暂停"
 msgid "Cancelled"
 msgstr "已取消"
 
-#: build/status_codes.py:23 generic/states/tests.py:23 importer/models.py:694
+#: build/status_codes.py:23 generic/states/tests.py:23 importer/models.py:703
 #: importer/status_codes.py:23 order/status_codes.py:24
 #: order/status_codes.py:68 order/status_codes.py:103 order/status_codes.py:153
 msgid "Complete"
@@ -1922,7 +1922,7 @@ msgstr "键字符串必须是唯一的"
 #: common/models.py:1435 common/models.py:1436 common/models.py:1550
 #: common/models.py:1551 common/models.py:1798 common/models.py:1799
 #: common/models.py:2257 common/models.py:2258 common/models.py:3599
-#: importer/models.py:106 part/models.py:2707 part/models.py:2735
+#: importer/models.py:115 part/models.py:2707 part/models.py:2735
 #: plugin/models.py:392 plugin/models.py:393
 #: report/templates/report/inventree_test_report.html:105 users/models.py:252
 #: users/models.py:707 users/models.py:841
@@ -2500,7 +2500,7 @@ msgstr "模板"
 msgid "Parameter template"
 msgstr "参数模板"
 
-#: common/models.py:3197 common/models.py:3588 importer/models.py:685
+#: common/models.py:3197 common/models.py:3588 importer/models.py:694
 msgid "Data"
 msgstr "数据"
 
@@ -2582,7 +2582,7 @@ msgstr "条码数据"
 msgid "User who scanned the barcode"
 msgstr "扫描条码的用户"
 
-#: common/models.py:3605 importer/models.py:73
+#: common/models.py:3605 importer/models.py:82
 msgid "Timestamp"
 msgstr "时间戳"
 
@@ -5145,144 +5145,149 @@ msgstr "卸载此过渡的后台任务失败"
 msgid "Invalid status code"
 msgstr "无效状态码"
 
-#: importer/models.py:77
+#: importer/models.py:86
 msgid "Data File"
 msgstr "数据文件"
 
-#: importer/models.py:78
+#: importer/models.py:87
 msgid "Data file to import"
 msgstr "要导入的数据文件"
 
-#: importer/models.py:88
+#: importer/models.py:97
 msgid "Columns"
 msgstr "列"
 
-#: importer/models.py:96
+#: importer/models.py:105
 msgid "Target model type for this import session"
 msgstr "本次导入会话的目标模型类型"
 
-#: importer/models.py:102
+#: importer/models.py:111
 msgid "Import status"
 msgstr "导入状态"
 
-#: importer/models.py:112
+#: importer/models.py:121
 msgid "Field Defaults"
 msgstr "字段默认值"
 
-#: importer/models.py:120
+#: importer/models.py:129
 msgid "Field Overrides"
 msgstr "字段覆盖"
 
-#: importer/models.py:128
+#: importer/models.py:137
 msgid "Field Filters"
 msgstr "字段筛选器"
 
-#: importer/models.py:135
+#: importer/models.py:144
 msgid "Update Existing Records"
 msgstr "更新现有记录"
 
-#: importer/models.py:136
+#: importer/models.py:145
 msgid "If enabled, existing records will be updated with new data"
 msgstr "若启用，现有记录将被新数据更新"
 
-#: importer/models.py:326
+#: importer/models.py:335
 msgid "Some required fields have not been mapped"
 msgstr "某些必填字段尚未映射"
 
-#: importer/models.py:428
+#: importer/models.py:437
 msgid "Completed Row Count History"
 msgstr "已完成条目数量历史记录"
 
-#: importer/models.py:431
+#: importer/models.py:440
 msgid "Row Count History"
 msgstr "条目数量历史记录"
 
-#: importer/models.py:454
+#: importer/models.py:463
 msgid "ID"
 msgstr "ID"
 
-#: importer/models.py:455
+#: importer/models.py:464
 msgid "Existing database identifier for the record"
 msgstr "记录的现有数据库标识符"
 
-#: importer/models.py:533
+#: importer/models.py:542
 msgid "Column is already mapped to a database field"
 msgstr "列已映射到数据库字段"
 
-#: importer/models.py:538
+#: importer/models.py:547
 msgid "Field is already mapped to a data column"
 msgstr "字段已映射到数据列"
 
-#: importer/models.py:547
+#: importer/models.py:556
 msgid "Column mapping must be linked to a valid import session"
 msgstr "列映射必须链接到有效的导入会话"
 
-#: importer/models.py:552
+#: importer/models.py:561
 msgid "Column does not exist in the data file"
 msgstr "数据文件中不存在列"
 
-#: importer/models.py:559
+#: importer/models.py:568
 msgid "Field does not exist in the target model"
 msgstr "目标模型中不存在字段"
 
-#: importer/models.py:563
+#: importer/models.py:572
 msgid "Selected field is read-only"
 msgstr "所选字段为只读"
 
-#: importer/models.py:569
+#: importer/models.py:578
 msgid "Lookup field can only be set for related (foreign-key) fields"
 msgstr "查找字段仅支持设置关联（外键）字段"
 
-#: importer/models.py:577
+#: importer/models.py:586
 #, python-brace-format
 msgid "Invalid lookup field. Valid options are: {options}"
 msgstr "查找字段无效，可用选项：{options}"
 
-#: importer/models.py:584 importer/models.py:671
+#: importer/models.py:593 importer/models.py:680
 msgid "Import Session"
 msgstr "导入会话"
 
-#: importer/models.py:590
+#: importer/models.py:599
 msgid "Column"
 msgstr "列"
 
-#: importer/models.py:596
+#: importer/models.py:605
 msgid "Lookup Field"
 msgstr "查找字段"
 
-#: importer/models.py:598
+#: importer/models.py:607
 msgid "Database field to use for foreign-key lookup. Leave blank for automatic lookup."
 msgstr "用于外键检索的数据库字段，留空则自动检索。"
 
-#: importer/models.py:675
+#: importer/models.py:684
 msgid "Row Index"
 msgstr "行索引"
 
-#: importer/models.py:680
+#: importer/models.py:689
 msgid "Original row data"
 msgstr "原始行数据"
 
-#: importer/models.py:689 machine/models.py:114
+#: importer/models.py:698 machine/models.py:114
 msgid "Errors"
 msgstr "错误"
 
-#: importer/models.py:692 part/serializers.py:1110
+#: importer/models.py:701 part/serializers.py:1110
 msgid "Valid"
 msgstr "有效"
 
-#: importer/models.py:933
+#: importer/models.py:915 importer/models.py:942
+#, python-brace-format
+msgid "Invalid filters for field: {field}"
+msgstr ""
+
+#: importer/models.py:956
 msgid "Multiple matches found for value - please ensure the value is unique, or select a specific lookup field"
 msgstr "匹配到多条结果，请确保该值唯一，或指定专用查找字段"
 
-#: importer/models.py:986
+#: importer/models.py:1009
 msgid "No record found with the provided ID"
 msgstr "没有找到与提供的ID相关的记录"
 
-#: importer/models.py:991
+#: importer/models.py:1014
 msgid "Invalid ID format provided"
 msgstr "提供的ID格式无效"
 
-#: importer/models.py:1059
+#: importer/models.py:1082
 msgid "ID is required for updating existing records."
 msgstr "更新现有记录需要提供ID。"
 
@@ -5302,43 +5307,43 @@ msgstr "无法将数据文件解码为文本"
 msgid "Invalid data file dimensions"
 msgstr "数据文件维度无效"
 
-#: importer/serializers.py:98
+#: importer/serializers.py:99
 msgid "Model type cannot be changed after the import session has been created"
 msgstr ""
 
-#: importer/serializers.py:113 importer/serializers.py:116
+#: importer/serializers.py:114 importer/serializers.py:117
 msgid "Invalid field defaults"
 msgstr "字段默认值无效"
 
-#: importer/serializers.py:129 importer/serializers.py:132
+#: importer/serializers.py:130 importer/serializers.py:133
 msgid "Invalid field overrides"
 msgstr "无效的字段覆盖"
 
-#: importer/serializers.py:145 importer/serializers.py:148
+#: importer/serializers.py:146 importer/serializers.py:149
 msgid "Invalid field filters"
 msgstr "字段筛选器无效"
 
-#: importer/serializers.py:229
+#: importer/serializers.py:232
 msgid "Rows"
 msgstr "行"
 
-#: importer/serializers.py:230
+#: importer/serializers.py:233
 msgid "List of row IDs to accept"
 msgstr "要接受的行ID列表"
 
-#: importer/serializers.py:243
+#: importer/serializers.py:246
 msgid "No rows provided"
 msgstr "未提供行"
 
-#: importer/serializers.py:247
+#: importer/serializers.py:250
 msgid "Row does not belong to this session"
 msgstr "行不属于此会话"
 
-#: importer/serializers.py:250
+#: importer/serializers.py:253
 msgid "Row contains invalid data"
 msgstr "行包含无效数据"
 
-#: importer/serializers.py:253
+#: importer/serializers.py:256
 msgid "Row has already been completed"
 msgstr "行已完成"
 
@@ -5375,8 +5380,24 @@ msgid "Data file contains too many rows"
 msgstr "数据文件包含的行太多"
 
 #: importer/validators.py:53 importer/validators.py:56
+#: importer/validators.py:74
 msgid "Value must be a valid dictionary object"
 msgstr "值必须是有效的字典对象"
+
+#: importer/validators.py:79
+#, python-brace-format
+msgid "Filters for field {field} must be a valid dictionary object"
+msgstr ""
+
+#: importer/validators.py:92
+#, python-brace-format
+msgid "Invalid filter key for field {field}: {key}"
+msgstr ""
+
+#: importer/validators.py:104
+#, python-brace-format
+msgid "Invalid filter value for field {field}: {key}"
+msgstr ""
 
 #: machine/machine_types/label_printer.py:216
 msgid "Copies"

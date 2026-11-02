@@ -8,7 +8,7 @@ msgstr ""
 "Language: sr\n"
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-11-01 03:16\n"
+"PO-Revision-Date: 2026-11-02 03:53\n"
 "Last-Translator: \n"
 "Language-Team: Serbian (Latin)\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
@@ -679,7 +679,7 @@ msgstr ""
 #: src/components/importer/ImporterDrawer.tsx:91
 #: src/components/modals/LicenseModal.tsx:85
 #: src/components/nav/NavigationTree.tsx:434
-#: src/components/nav/NotificationDrawer.tsx:239
+#: src/components/nav/NotificationDrawer.tsx:257
 #: src/components/nav/SearchDrawer.tsx:612
 #: src/components/settings/SettingList.tsx:158
 #: src/components/tables/InvenTreeTableHeader.tsx:164
@@ -1447,7 +1447,7 @@ msgid "Change the language of the user interface"
 msgstr "Promeni jezik korisničkog interfejsa"
 
 #: src/components/dashboard/widgets/NewsWidget.tsx:60
-#: src/components/nav/NotificationDrawer.tsx:98
+#: src/components/nav/NotificationDrawer.tsx:116
 #: src/pages/Notifications.tsx:53
 msgid "Mark as read"
 msgstr "Označi kao pročitano"
@@ -3193,7 +3193,7 @@ msgstr ""
 #: src/components/nav/FirstUseTour.tsx:85
 #: src/components/nav/Header.tsx:209
 #: src/components/nav/NavigationDrawer.tsx:134
-#: src/components/nav/NotificationDrawer.tsx:185
+#: src/components/nav/NotificationDrawer.tsx:203
 #: src/pages/Index/Settings/SystemSettings.tsx:147
 #: src/pages/Index/Settings/UserSettings.tsx:113
 #: src/pages/Notifications.tsx:45
@@ -3425,20 +3425,20 @@ msgstr ""
 msgid "Error loading navigation tree."
 msgstr ""
 
-#: src/components/nav/NotificationDrawer.tsx:187
+#: src/components/nav/NotificationDrawer.tsx:205
 #: src/pages/Notifications.tsx:74
 msgid "Mark all as read"
 msgstr "Sve označi kao pročitano"
 
-#: src/components/nav/NotificationDrawer.tsx:197
+#: src/components/nav/NotificationDrawer.tsx:215
 msgid "View all notifications"
 msgstr "Pogledaj sva obaveštenja"
 
-#: src/components/nav/NotificationDrawer.tsx:220
+#: src/components/nav/NotificationDrawer.tsx:238
 msgid "You have no unread notifications."
 msgstr "Nemate nepročitana obaveštenja"
 
-#: src/components/nav/NotificationDrawer.tsx:242
+#: src/components/nav/NotificationDrawer.tsx:260
 msgid "Error loading notifications."
 msgstr ""
 
